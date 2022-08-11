@@ -4,7 +4,7 @@ pipeline {
 
 	environment {
 		DOCKERHUB_CREDENTIALS = credentials('Saud-dockerhub-token')
-		AWS_ACCESS_KEY_ID     = credentials('YOURNAME-aws-secret-key-id')
+		AWS_ACCESS_KEY_ID     = credentials('saud-aws-secret-key-id')
   		AWS_SECRET_ACCESS_KEY = credentials('saud-aws-secret-access-key')
 		ARTIFACT_NAME = 'Dockerrun.aws.json'
 		AWS_S3_BUCKET = 'saud-belt2-artifacts-123456'
